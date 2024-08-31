@@ -2,7 +2,7 @@ package mathsForDSA;
 
 import java.util.Scanner;
 
-public class math04 { 
+public class maths04 { 
     public static void main(String[] args) {
         System.out.println("enter a number"); 
         Scanner sc = new Scanner(System.in);

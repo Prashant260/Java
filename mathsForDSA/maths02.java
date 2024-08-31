@@ -4,7 +4,7 @@ package mathsForDSA;
 
 import java.util.Scanner;
 
-public class math02 {
+public class maths02 {
 
   
         public static void main(String[] args) {
