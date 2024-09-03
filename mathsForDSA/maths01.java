@@ -1,6 +1,7 @@
+package mathsForDSA;
 //this program is used to count the total no. of digits in the given number.
 
-package mathsForDSA;
+
 
 import java.util.Scanner;
 
