@@ -1,4 +1,4 @@
-
+package projects;
 import java.util.Scanner;
  class calculatorApp{
 
@@ -22,7 +22,7 @@ import java.util.Scanner;
 
         case '+':
             System.out.println("addition");
-            System.out.println("addition is "+ x+y);
+            System.out.println(x+y);
 
             break;
         case '-':
