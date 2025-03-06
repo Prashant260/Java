@@ -10,20 +10,19 @@ public class runing_sum {
             int size=in.nextInt();
         
         int arr[]=new int[size];
-        Scanner sc=new Scanner(System.in);
-        System.out.println("enter elements: ");
-        for (int i =0; i<size;i++){
-            arr[i]=sc.nextInt();   
-        }System.out.println(Arrays.toString(arr));
-        int result[]=new int[size];
-            result[0]=arr[0];
-            for(int j=1;j<size;j++){
-                result[j]=result[j-1]+arr[j];
-            }
-
-                 
+         Scanner sc=new Scanner(System.in);
+           System.out.println("enter elements: ");
+            for (int i =0; i<size;i++){
+             arr[i]=sc.nextInt();   
+        }
+           System.out.println(Arrays.toString(arr));
         
-        System.out.println(Arrays.toString(result));
+        int result[]=new int[size];
+         result[0]=arr[0];
+             for(int j=1;j<size;j++){
+                 result[j]=result[j-1]+arr[j];
+            }        
+           System.out.println(Arrays.toString(result));
 
 
 
