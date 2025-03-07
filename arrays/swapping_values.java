@@ -1,4 +1,4 @@
-package arrays_questions;
+package arrays;
 
 import java.util.Arrays;
 

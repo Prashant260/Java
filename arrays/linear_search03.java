@@ -1,7 +1,7 @@
 package arrays;
 
 /**
- * to find the mak digit inside an array
+ * to find the max digit inside a given array
  */
 public class linear_search03 {
     public static void main(String[] args) {

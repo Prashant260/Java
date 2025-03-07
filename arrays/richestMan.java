@@ -1,4 +1,4 @@
-package arrays_questions;
+package arrays;
 
 class richestMan {
     public static void main(String[] args) {
