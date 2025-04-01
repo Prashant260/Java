@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class binarySearch {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
-        Scanner  in =new Scanner(System.in);
+        
     // creating an array
         System.out.println("enter the size of the array: ");
         int n=sc.nextInt();
@@ -14,15 +14,15 @@ public class binarySearch {
     // taking inputs in the array
         System.out.println("enter the elements of the array: ");
         for(int i=0;i<n;i++){
-            arr[i]=in.nextInt();    
+            arr[i]=sc.nextInt();    
         }System.out.println(Arrays.toString(arr));
         binarysearch(arr);
     }
 
     static void binarysearch(int arr[]){
         System.out.println("enter the element to search: ");
-        Scanner  in =new Scanner(System.in);
-        int target = in.nextInt();
+        Scanner  sc =new Scanner(System.in);
+        int target = sc.nextInt();
         int start = 0;
         int end = arr.length-1;
         while (start<=end){
